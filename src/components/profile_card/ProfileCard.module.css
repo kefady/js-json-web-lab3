@@ -1,0 +1,49 @@
+.container {
+    width: 400px;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px #c9c9c9;
+}
+
+.picture {
+    width: 200px;
+    margin: 0 auto 10px;
+}
+
+.picture img {
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid cornflowerblue;
+}
+
+.infoBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.emailBox {
+    padding: 10px;
+}
+
+.textBox {
+    flex-basis: 50%;
+}
+
+.textBox:nth-child(2) {
+    padding-left: 10px;
+}
+
+.textBox h1 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #495057;
+}
+
+.textBox p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #212529;
+}
